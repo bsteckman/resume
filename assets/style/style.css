@@ -1,6 +1,6 @@
-.profile-image {text-align: center;
-border: 8px darkslategray solid;
-
+.profile-image {
+    text-align: left;
+    border: 8px darkslategray solid;
     padding: 15px;
     min-height: 200px;
     background-color: #2C2A2C;
@@ -21,7 +21,7 @@ border: 8px darkslategray solid;
     margin: 0
    }
    
-.work-history {
+.work-history { text-align: left;
     border: 8px darkslategray solid;
     padding: 20px;
     min-height: 200px;
@@ -30,8 +30,18 @@ border: 8px darkslategray solid;
     padding-left: 15px;
     }
     
-
-
-.container {
+.contact-info {
+    text-align: left; 
+    border: 8px darkslategray solid;
+    padding: 22px;
+    min-height: 200px;
+    background-color: #2C2A2C;
+    color: #269E9E;
+    padding-left: 15px;}
     
-}
+
+.mydashbackground {background-color: #2C2A2C}
+
+.link:hover {color: #28DCDC;}
+.link {color: #269E9E}
+.link:active {color: #269E9E}
