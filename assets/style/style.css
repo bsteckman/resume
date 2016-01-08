@@ -1,0 +1,10 @@
+.profile-image {text-align: center;}
+
+
+.sidebar {
+    padding: 20px;
+    min-height: 200px;
+    background-color: #2C2A2C;
+    color: #C7C7C7;
+    padding-left: 50px;
+   }

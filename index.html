@@ -2,20 +2,34 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 </head>
 <body>
-
-    <!--start about-->
-    <img src="assets/img/profile.jpg" height="180" alt="Profile Picture"/>
-    <section id="about"> 
-        <h1>Contact Info</h1>
-            <p>
-                Brett M. Steckman<br/>
-                2039 S. Mayflower Way<br/>
-                Boise, ID 83709<br/>
-                (503) 804-2808<br/>
-           </p>
-    </section>
+  <div class="container">
+         <div class="row">
+            <div class="sidebar profile-image col-lg-4 col-md-4 col-sm-6">
+                <img src="assets/img/profile.jpg" class="profile-picture" height="180" alt="Profile Picture"/>
+                    <p style="margin-top: 10px; font-size: 18px;">
+                        <i class="glyphicon glyphicon-asterisk"></i> GitHub Profile:
+                        <a href="https://github.com/bsteckman">/bsteckman</a>
+                    </p>
+            </div>
+        
+            <div class="sidebar col-lg-8 col-md-8 col-sm-6"> 
+                <h1>Brett Steckman</h1>
+                <p>
+                    2039 S. Mayflower Way<br/>
+                    Boise, ID 83709<br/>
+                    (503) 804-2808<br/>
+                </p>
+            </div>
+        </div>
+  </div>      
     <!--End About-->
     
     <!--start work history-->
@@ -23,6 +37,7 @@
         <h1> Work History </h1>
 
 <ol>
+  <div class="jobinfo col-md-4 col-sm-12"
      <li> 
         <p>
           <b>
@@ -41,7 +56,9 @@
                utility companies, contractors, and business owners for the lower 39 counties in Idaho to ensure 
                that utility lines are not compromised during excavation projects.<br/>
     </li>
-    
+  </div>
+  
+  <div class="jobinfo col-md-4 col-sm-12">
     <li>
         <P>
            <b>
@@ -59,7 +76,9 @@
             <b>Job Description:</b>  Making outbound collections calls for businesses in the telecommunications, internet, and satellite/cable television service provider industries regarding their customers  past-due balances.  Helped discuss options available to customers to resolve their balance, negotiating settlements or payment-arrangements as necessary and allowed by client guidelines. <br/>
     </li>
     
-    
+ </div>
+ 
+ <div class="jobinfo col-md-4 col-sm-12">
     <li>
         <p>
             <b>
@@ -77,7 +96,9 @@
             <b>Job Description:</b> Taking inbound calls regarding Sprint wireless phone service.  Duties included assisting  
                                     customers with technical issues, billing concerns, and other account related inquiries. <br/>
     </li>
-    
+ </div>
+ 
+ <div class="jobinfo col-md-4 col-sm-12"
     <l1>
         <p>
             <b>
@@ -157,5 +178,9 @@
    </ol>
    </section>
    <!--end work history-->
+   <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
