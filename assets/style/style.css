@@ -45,4 +45,5 @@
 .link:hover {color: #28DCDC;}
 .link {color: #269E9E}
 .link:active {color: #269E9E}
-body {font-family: 'Pacifico', cursive;}
+
+.glyphicon:before { margin-right: 10px; }
