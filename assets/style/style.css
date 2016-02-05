@@ -47,3 +47,29 @@
 .link:active {color: #269E9E}
 
 .glyphicon:before { margin-right: 10px; }
+
+#return {
+    text-align: center;
+
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid #269E9E;
+    color: #269E9E;
+    background-color: black;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #28DCDC;
+    outline: 0;
+    color: #000;
+    background-color: #28DCDC;
+}
