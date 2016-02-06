@@ -1,52 +1,24 @@
-.profile-image {
-    text-align: center;
-    border: 8px darkslategray solid;
-    padding: 15px;
-    min-height: 200px;
+body{
     background-color: black;
-    color: #269E9E;
-    padding-left: 15px;
-    margin: 0
+    
+    
 }
+#work-history {
 
-
-.sidebar {
-    
-    border: 8px darkslategray solid;
-    padding: 15px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin-left: 300px;
+    margin-right: 300px;
     min-height: 200px;
     background-color: black;
-    color: #269E9E;
-    padding-left: 15px;
+    color: #fff;
+    text-align: center;
     
-   }
-   
-.work-history { text-align: left;
-    border: 8px darkslategray solid;
-    padding: 20px;
-    min-height: 200px;
-    background-color: black;
-    color: #269E9E;
-    padding-left: 15px;
     }
-    
-.contact-info {
-    text-align: left; 
-    border: 8px darkslategray solid;
-    padding: 22px;
-    min-height: 200px;
-    background-color: black;
-    color: #269E9E;
-    padding-left: 15px;}
-    
+
 
 .mydashbackground {background-color: black}
 
-.link:hover {color: #28DCDC;}
-.link {color: #269E9E}
-.link:active {color: #269E9E}
-
-.glyphicon:before { margin-right: 10px; }
 
 #return {
     text-align: center;
@@ -61,15 +33,30 @@
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    border: 1px solid #269E9E;
-    color: #269E9E;
+    border: 1px solid yellowgreen;
+    color: yellowgreen;
     background-color: black;
 }
 
 .btn:hover,
 .btn:focus {
-    border: 1px solid #28DCDC;
+    border: 1px solid greenyellow;
     outline: 0;
     color: #000;
-    background-color: #28DCDC;
+    background-color: greenyellow;
 }
+
+#pagetitle {
+    text-align:  center;
+    color: yellowgreen
+   
+}
+
+.green {
+    color: yellowgreen;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
